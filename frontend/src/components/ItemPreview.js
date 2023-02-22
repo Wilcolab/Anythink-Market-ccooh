@@ -27,8 +27,8 @@ const ItemPreview = (props) => {
     } else {
       props.favorite(item.slug);
     }
-  };
-
+  }; //frontend/src/custom.css    ./imgs/background.png    frontend/src/components/Home/Banner.js --> ../../imgs/logo.png
+     // fontend/src/components/ItemPreview.js 
   return (
     <div
       className="card bg-dark border-light p-3"
@@ -36,7 +36,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image || "placeholder.png"}
+        src={item.image || "../../public/placeholder.png"}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
